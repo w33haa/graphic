@@ -1,0 +1,12 @@
+*.suo
+*.userprefs
+*.unityproj
+*.DotSettings
+*.csproj.user
+
+build/*
+bin/*
+project1/.vs/*
+project1/project1/project1 - 副本.cpp
+project1.rar
+project1/project1/MKApp - 副本.cpp

@@ -1,0 +1,20 @@
+<Material>
+<LightMap>
+
+<Texture name='fireTexture'>../../resources/fire-rgb.jpg</Texture>
+<Texture name='noiseTexture'>../../resources/fire-noise.jpg</Texture>
+<Texture name='alphaTexture'>../../resources/fire-alpha.jpg</Texture>
+</LightMap>
+
+<Uniform>
+
+</Uniform>
+
+<RenderOption>
+<Primitive>GL_TRIANGLES</Primitive>
+<DepthTest>On</DepthTest>
+<Blend>On</Blend>
+<Culling>On</Culling>
+</RenderOption>
+
+</Material>

@@ -1,0 +1,20 @@
+<Material>
+<LightMap>
+
+<Texture name='diffuseMap'>../../resources/brickwall.jpg</Texture>
+<Texture name='normalMap'>../../resources/brickwall_normal.jpg</Texture>
+</LightMap>
+
+<Uniform>
+<Variable name='a' type='int'>2</Variable>
+<Variable name = 'b' type = 'float'>1.2</Variable>
+</Uniform>
+
+<RenderOption>
+<Primitive>GL_TRIANGLES</Primitive>
+<DepthTest>On</DepthTest>
+<Blend>On</Blend>
+<Culling>On</Culling>
+</RenderOption>
+
+</Material>

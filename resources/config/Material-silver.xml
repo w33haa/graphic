@@ -1,0 +1,20 @@
+<Material>
+<LightMap>
+
+<Texture name='diffuseMap'>../../resources/silver.jpg</Texture>
+<Texture name='normalMap'>../../resources/Female_Rz_01_N.tga</Texture>
+</LightMap>
+
+<Uniform>
+<Variable name='a' type='int'>2</Variable>
+<Variable name = 'b' type = 'float'>1.2</Variable>
+</Uniform>
+
+<RenderOption>
+<Primitive>GL_TRIANGLES</Primitive>
+<DepthTest>On</DepthTest>
+<Blend>On</Blend>
+<Culling>On</Culling>
+</RenderOption>
+
+</Material>
